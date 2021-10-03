@@ -15,6 +15,7 @@
 name: Freenom自动续期
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - master
